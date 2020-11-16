@@ -1,0 +1,38 @@
+header {
+  padding: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+nav a {
+  padding: 15px;
+}
+
+body {
+  background: #79d0be;
+  padding: 10px;
+}
+
+.content-wrapper {
+  border-radius: 10px;
+  background: white;
+}
+
+.splash-wrapper {
+  background: lightblue;
+  height: 450px;
+}
+
+.plan-wrapper {
+  background: lightgray;
+  height: 450px;
+}
+/*# sourceMappingURL=styles.css.map */

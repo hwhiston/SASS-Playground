@@ -1,0 +1,22 @@
+@import './variables';
+@import './header';
+
+body {
+    background: $bodyBackground;
+    padding: 10px;
+}
+
+.content-wrapper{
+    border-radius: 10px;
+    background: $contentBackground;
+}
+
+.splash-wrapper{
+    background: lightblue;
+    height: 450px;
+}
+
+.plan-wrapper{
+    background: lightgray;
+    height: 450px;
+}

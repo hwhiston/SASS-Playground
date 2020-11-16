@@ -1,0 +1,21 @@
+@mixin flexCenter($direction, $background) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}
+
+header{
+    padding: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+nav a {
+    padding: 15px;
+}
